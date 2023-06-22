@@ -7,7 +7,7 @@ body {
     background: linear-gradient(142deg,
             rgba(63, 161, 251, 1) 50%,
             rgba(252, 70, 168, 1) 0%);
-    height: 1200px;
+    height: auto;
     overflow-y: hidden;
 }
 
@@ -84,8 +84,8 @@ header {
     border-radius: 1rem;
     border: .5vmin solid #05060f;
     box-shadow: .4rem .4rem #05060f;
-    overflow-y: scroll;
-    overflow-x: none;
+    overflow-y: none;
+    overflow-x: hidden;
     color: black;
 }
 
@@ -159,5 +159,15 @@ header {
     color: black;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 728px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Exo 2", sans-serif;
+        background: linear-gradient(142deg,
+                rgba(63, 161, 251, 1) 50%,
+                rgba(252, 70, 168, 1) 0%);
+        height: auto;
+        overflow-y: hidden;
+    }
 }
