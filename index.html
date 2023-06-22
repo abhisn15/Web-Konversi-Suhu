@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Web Konversi Suhu</title>
+</head>
+<body>
+    <section class="header">
+        <div class="title-wrapper">
+            <h1 class="sweet-title">
+                <span data-text="Konversi">Konversi</span>
+                <span data-text="Suhu">Suhu</span>
+            </h1>
+        </div>
+    </section>
+    <div class="card">
+        <p for="celsiusInput" class="text">Celsius :</p>
+        <input id="celsiusInput" type="number" oninput="convertCelsiusToFahrenheit()">
+        <p for="fahrenheitInput" class="text">Farenheit :</p>
+        <input id="fahrenheitInput" type="number" oninput="convertFahrenheitToCelsius()">
+        <div class="hasil" id="hasil">
+            <p class="hasilText" id="hasilText"></p>
+        </div>
+        <div class="hasil">
+            <p class="rumus">Cara menghitung °C ke °F :</p>
+            <p class="rumusHitung">S(°F) = (S(°C) x 9/5) + 32</p>
+        </div>
+        <div class="hasil">
+            <p class="rumus">Cara menghitung °F ke °C :</p>
+            <p class="rumusHitung">S(°C) = (S(°F) - 32) x 5/9</p>
+        </div>
+    </div>
+</body>
+</html>
