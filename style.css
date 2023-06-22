@@ -85,6 +85,7 @@ header {
     border: .5vmin solid #05060f;
     box-shadow: .4rem .4rem #05060f;
     overflow-y: scroll;
+    overflow-x: none;
     color: black;
 }
 
