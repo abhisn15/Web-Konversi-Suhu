@@ -280,12 +280,12 @@ body {
 
     #celsiusInput {
         border: 5px solid #000000;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     #fahrenheitInput {
         border: 5px solid #000000;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .card {
@@ -306,16 +306,16 @@ body {
     }
 
     .hasilText {
-        font-size: 18px;
+        font-size: 14px;
     }
     
     .rumus {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 900;
     }
     
     .rumusHitung {
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 600;
     }
 
