@@ -226,12 +226,12 @@ body {
 
     #celsiusInput {
         border: 7px solid #000000;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     #fahrenheitInput {
         border: 7px solid #000000;
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .card {
@@ -251,21 +251,22 @@ body {
     }
 
     .hasilText {
-        font-size: 28px;
+        font-size: 24px;
     }
     
     .rumus {
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 900;
     }
     
     .rumusHitung {
-        font-size: 28px;
+        font-size: 24px;
         font-weight: 600;
     }
 
     .wm {
         font-size: 30px;
+        margin-top: 20px;
     }
 }
 
@@ -326,8 +327,13 @@ body {
 }
 
 @media only screen and (min-width: 1200px) {
+    body {
+       height: 1000px;
+    }
     .sweet-title{
         font-size: 35px;
+        margin-bottom: 25px;
+        margin-top: 30px;
     }
 
     .card {
