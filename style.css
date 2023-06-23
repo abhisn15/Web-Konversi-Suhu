@@ -30,6 +30,7 @@ body {
 
 .sweet-title {
     order: 2;
+    position: relative;
     color: #fde9ff;
     font-weight: 900;
     text-transform: uppercase;
