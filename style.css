@@ -124,7 +124,6 @@ body {
 }
 
 .hasilText {
-    position: relative;
     font-size: 12px;
     font-weight: 600;
     text-align: center;
@@ -197,7 +196,8 @@ body {
     }
 
     .hasilText {
-        left: 25px;
+        position: relative;
+        left: 24px;
         font-size: 15px;
     }
 
