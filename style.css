@@ -11,6 +11,11 @@ body {
     overflow-y: hidden;
 }
 
+html{
+    height: 800px;
+    scroll-behavior: smooth;
+  }
+
 .container {
     display: grid;
     place-items: center;
@@ -213,7 +218,7 @@ body {
 
     .wm {
         font-size: 20px;
-        margin-top: 50px;
+        margin-top: 10px;
     }
 }
 

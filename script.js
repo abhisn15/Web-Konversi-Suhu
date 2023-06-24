@@ -30,3 +30,18 @@ function convertFahrenheitToCelsius() {
 function removeTrailingZeros(value) {
     return value.replace(/\.?0+$/, "");
 }
+
+ScrollReveal({
+    //reset: true,
+    distance: "200px",
+    duration: 2000,
+  });
+
+  ScrollReveal().reveal(".title-wrapper, .sweet-title", {
+    delay: 500,
+    origin: "left",
+  });
+  ScrollReveal().reveal(".card", {
+    delay: 600,
+    origin: "right",
+  });
